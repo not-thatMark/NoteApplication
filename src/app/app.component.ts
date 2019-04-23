@@ -16,10 +16,18 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title:'Login', url:'/login', icon:'ios-log-in'
+
+    },
+    {
+      title:'Logout', url:'/logout', icon:'ios-log-out'
+
+    },
+    {
+      title:'Register', url:'/register', icon:'person-add'
+
     }
+  
   ];
 
   constructor(
